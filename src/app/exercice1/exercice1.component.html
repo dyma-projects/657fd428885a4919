@@ -1,0 +1,14 @@
+<!-- Liaison de données de type attribut -->
+<img [src]="monImage" alt="mojito" />;
+<br />
+<br />
+<!-- Liaison de données de type évènement -->
+<div
+  class="square"
+  [style.background]="color"
+  (mouseenter)="changeColor('purple')"
+></div>
+<br />
+<br />
+<!-- Liaison de données de type interpolation -->
+<h1>Bonjour {{ team }}</h1>
